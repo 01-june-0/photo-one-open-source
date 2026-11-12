@@ -1,0 +1,1169 @@
+{
+  "version": 1,
+  "state": "PRISTINE_VENDOR_SOURCE_MANIFEST",
+  "scope": "Pristine LibRaw vendor source only. No PhotoOne application source or analysis.",
+  "component": "LibRaw",
+  "version_string": "0.23.0-Snapshot202611",
+  "source_revision": "a9a14b1970d188c25dade81f8326ff00a6e33649",
+  "selected_license": "CDDL-1.0",
+  "upstream_license_alternatives": "LGPL-2.1-only OR CDDL-1.0",
+  "unmodified": true,
+  "upstream_archive_url": "https://codeload.github.com/LibRaw/LibRaw/tar.gz/a9a14b1970d188c25dade81f8326ff00a6e33649",
+  "archive": {
+    "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649.tar.gz",
+    "bytes": 665146,
+    "sha256": "453b1311b4825cc1946f114b5a0bcf0d4ad62a52c667dd5cc8b2b70e28342020",
+    "root": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649",
+    "file_count": 227,
+    "directory_count": 27,
+    "expanded_regular_bytes": 3190795
+  },
+  "source_notice_members": {
+    "COPYRIGHT": "c91cd5a149e87f1c88e2ca8c31e66bab4ada32024ae3902fd7dccaf0250a42b4",
+    "LICENSE.CDDL": "0e3098d2d54a12434715f6679ea408d57da5e8d613c385c58ecc6fe5d30cc81f",
+    "LICENSE.LGPL": "eea173a556abac0370461e57e12aab266894ea6be3874c2be05fd87871f75449",
+    "src/demosaic/dcb_demosaic.cpp": "e02a3626c5794c40221bde1be4bd55ee0cad15c860013319969f0cbec682410f",
+    "src/decoders/nikonhe.cpp": "146ef6730983a505d24a994c73a32958d55332ec51db634b7c4b2c1af5cc5df3",
+    "src/decoders/sony_arw6.cpp": "c59d0d1fef4b338b1034d5228f886f02280d8bf9e9aed65fd35d3ed291113823",
+    "src/x3f/x3f_parse_process.cpp": "452fc088589001d5035409cde4b72ef91bb28f221caddcfe089a51fc4b8d2e0e",
+    "src/x3f/x3f_utils_patched.cpp": "ccb45d5e3ecbad0c4fb625b235a873f2f7a25d77364dbaf69e510329c3f0c1f6"
+  },
+  "preservation": "Entire upstream archive retained byte-for-byte, including alternative license text and unused optional integration patches/docs; no optional dependency is thereby enabled.",
+  "files_in_archive_order": [
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/.clang-format",
+      "bytes": 75,
+      "sha256": "2939d8e152ca3ffae6981ad5ee8099445f680b4ac745313d3b871ed314bc4e7e"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/CONTRIBUTING.md",
+      "bytes": 5983,
+      "sha256": "87c7fe08d8a8ed66ffb07a2d651f52869d5e5e3155557430d227510b5c4d75e9"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/COPYRIGHT",
+      "bytes": 1153,
+      "sha256": "c91cd5a149e87f1c88e2ca8c31e66bab4ada32024ae3902fd7dccaf0250a42b4"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/Changelog.txt",
+      "bytes": 142551,
+      "sha256": "01e4cc04854473bdc3a9a2c83cca332ba010f108316cfeddd82faef102071791"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/GoPro/dng-sdk-1_4-allow-VC5-validate.diff",
+      "bytes": 444,
+      "sha256": "170a7b78014b61d0c2f475482df1c1c6961ec41eabb7831597f562e7545cc72a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/GoPro/dng-sdk-1_6-1_7-hide-ccVc5-definitiion.diff",
+      "bytes": 451,
+      "sha256": "b5ec9852fbb1eb8bc091e1a71023ec1227fbbf2729a4d48952cd54598aebe105"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/GoPro/dng-sdk-1_6-hide-ccVc5-definitiion.diff",
+      "bytes": 532,
+      "sha256": "eb3bcacfc2cc10a5d16fa10eeb2547c808ee312a708ca321f7e1b4c7d4132bc4"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/GoPro/dng-sdk-allow-VC5-validate.diff",
+      "bytes": 444,
+      "sha256": "170a7b78014b61d0c2f475482df1c1c6961ec41eabb7831597f562e7545cc72a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/GoPro/gpr_read_image.cpp-dng16.diff",
+      "bytes": 1157,
+      "sha256": "6bb37a67f7f46a5a957f6c15347397e954a448b428520f52bfa2cc409763dddd"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/GoPro/gpr_read_image.cpp-dng17.diff",
+      "bytes": 857,
+      "sha256": "9e09cedd9bda229461c81f34b06770eb34b914a622419ff40bc455cd159d11ce"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/GoPro/gpr_read_image.cpp.diff",
+      "bytes": 1157,
+      "sha256": "6bb37a67f7f46a5a957f6c15347397e954a448b428520f52bfa2cc409763dddd"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/GoPro/gpr_read_image.h-dng16.diff",
+      "bytes": 513,
+      "sha256": "32484201e2317f07b2665f9b8b285ef91ffca088e801010b92b0ef67ac2a32db"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/GoPro/gpr_read_image.h-dng17.diff",
+      "bytes": 697,
+      "sha256": "1dc5f8b84add940efad35087fca0c61256897b6e445f1a7bf5c08214a470a3f1"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/GoPro/gpr_read_image.h.diff",
+      "bytes": 513,
+      "sha256": "32484201e2317f07b2665f9b8b285ef91ffca088e801010b92b0ef67ac2a32db"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/INSTALL.md",
+      "bytes": 1748,
+      "sha256": "b897268c33754214f361fb66cfb878528f122dc93381d70b118a8a4532ce85d8"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/LICENSE.CDDL",
+      "bytes": 16906,
+      "sha256": "0e3098d2d54a12434715f6679ea408d57da5e8d613c385c58ecc6fe5d30cc81f"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/LICENSE.LGPL",
+      "bytes": 24389,
+      "sha256": "eea173a556abac0370461e57e12aab266894ea6be3874c2be05fd87871f75449"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/LibRaw.pro",
+      "bytes": 485,
+      "sha256": "ae8e1347283d73c424062524fdcef00eaec2d29f4865449dc813ea51f61a176b"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/LibRaw.sln",
+      "bytes": 7706,
+      "sha256": "48af968346153b38ebd5953430f7cd2d013c209e51bd90b1fa2d44aa17c35dc2"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/Makefile.am",
+      "bytes": 5339,
+      "sha256": "9987f0f23cbf79cc370b6e3c5c476e036b7fbfede26197e51241d115fdccd427"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/Makefile.devel",
+      "bytes": 31923,
+      "sha256": "54f33a7adc864088621d2383c8a21e1a3dd40a74b0f5c12197fb2ab3acf2a078"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/Makefile.devel.nopp",
+      "bytes": 12895,
+      "sha256": "4feeac2e4ee73b265f43c42ee857b84d254040a8a8d1f21bb56e05769dc95359"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/Makefile.devel.noppr2i",
+      "bytes": 12760,
+      "sha256": "fca585ab2585ef79943e0c25a42c407067b647a0f88d73daeedde9ff7b545973"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/Makefile.dist",
+      "bytes": 30439,
+      "sha256": "9325a979546623f55d5f672442fa3ffc7d0698244e99187b7cf9f47bacc37e86"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/Makefile.mingw",
+      "bytes": 17425,
+      "sha256": "7a34cce2b06f8e53214f1b98064f035c6275cdebab8a64175a5eab146de507ed"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/Makefile.msvc",
+      "bytes": 33659,
+      "sha256": "13c7c3f53185416cdd472f9bfdcbd5fef4958d1959196dec019f9a35a63c6136"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/README.DNGSDK.txt",
+      "bytes": 2561,
+      "sha256": "343b98888f88f1bde4ceb952fb4f6e32c598a0d2bc5ee4fca7bc566f06af56d2"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/README.GoPro.txt",
+      "bytes": 4771,
+      "sha256": "64b7c1166c46db9822ac53c6809d4ffd52728ca1b973e24c279f2c4aae141250"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/README.RawSpeed.txt",
+      "bytes": 2455,
+      "sha256": "46119a8c55a47cef017dd401c42f5f95ef40179d34b2098932f5a64bb422b840"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/README.cmake",
+      "bytes": 302,
+      "sha256": "a11f28f25939cffc2bf2edcaf0ddc2fc865f718a54a5e6cb4dfb1bbe754ff85a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/README.demosaic-packs",
+      "bytes": 830,
+      "sha256": "a737665db77c1a78d4cdb6ef7fcd14b86986c2d9892986ad932cc5f886678355"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/README.md",
+      "bytes": 7096,
+      "sha256": "bcb4fe8657807a588c212cc72a1c92108301fc27d22ff202982194096731d2db"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed/rawspeed.cpucount-unix.patch",
+      "bytes": 367,
+      "sha256": "657e8767d54d56f00b0436e683dfcca3068bbec7e4a462a601f98ac8671ad659"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed/rawspeed.qmake-pro-files.patch",
+      "bytes": 3319,
+      "sha256": "7db13f00fa23a7394536a79e58c0c924545a94d74700aa863e11a16a9aeba2d5"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed/rawspeed.samsung-decoder.patch",
+      "bytes": 1760,
+      "sha256": "3653b23a41a1b66f2ec5ce6940b583a0c43374d274e7feaa101152decbecedd6"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed/rawspeed.uncompressed-color-dng.patch",
+      "bytes": 650,
+      "sha256": "c9bf3148395f4cae648f17f469ba7a3f8d96d0ec95d4eab76ece645d4d8f131a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed/rawspeed.win32-dll.patch",
+      "bytes": 4260,
+      "sha256": "c787937d51198788b6e20119bdcf2272d872eb04ab55336f6f99554fc1072781"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed/rawspeed_xmldata.cpp",
+      "bytes": 162807,
+      "sha256": "7192bdbeeeb5cc0b64bd4a836c57054c9f984d395f0d59ff135d4f4e6340a1db"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed3/README.md",
+      "bytes": 5811,
+      "sha256": "94b3703f5b881d8800004565b7a07fdcfe2ec1fb6382f5828b56e56e4a3d8795"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed3/patches/01.CameraMeta-extensibility.patch",
+      "bytes": 370,
+      "sha256": "fcbebe0d0e03ee3849fab63d5f115697fc5bcda124cdf56efe1f0de00826db0a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed3/patches/02.Makernotes-processing.patch",
+      "bytes": 1768,
+      "sha256": "865a63f2d42adfcb0728a556ca63c4822326d445f802e614e48e382aecf5cc7f"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed3/patches/03.remove-limits-and-logging.patch",
+      "bytes": 11406,
+      "sha256": "d7924108af23bcbd3a95cebdd29465b00172695f9a4bbf4a6de8f756af5394c4"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed3/patches/04.clang-cl-compatibility.patch",
+      "bytes": 1383,
+      "sha256": "44646383fc16c83b7c068452968b2e73c391201a0a01053a2b924cc4250ba7f1"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed3/patches/05.no-phase-one-correction.patch",
+      "bytes": 594,
+      "sha256": "048db1b2ed7735bfbb136a4f42ab726566ef0f31c5706899d72535cb7fe41313"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed3/rawspeed3_c_api/rawspeed3_capi.cpp",
+      "bytes": 6791,
+      "sha256": "c14f9e2e1cf7cfd357d1863c1c7a06fdef164f3cc23d44cd6a35425e92f58226"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed3/rawspeed3_c_api/rawspeed3_capi.h",
+      "bytes": 2170,
+      "sha256": "9e5b612735e5c038311225969f8337ab7fc0c9cc99c9789783aab77e778600d2"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed3/rawspeed3_c_api/rawspeed3_capi_test.cpp",
+      "bytes": 1977,
+      "sha256": "53efdc6f7b22d9d03e4419236b1b2582f9d118e219cb4fee9ba2efeadb29e437"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/RawSpeed3/rawspeed3_c_api/rsxml2c.sh",
+      "bytes": 150,
+      "sha256": "76924c4177cc154a27a73622bfcfe5c09e593b3aa33f5c8b199e5b031fc49f6d"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/bin/.keep_me",
+      "bytes": 2,
+      "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/4channels.pro",
+      "bytes": 117,
+      "sha256": "2ab557a3171a3704ea3c0c5b7ee880ee615c4470ba517a6f4c19c8facc56a955"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/4channels.vcxproj",
+      "bytes": 9405,
+      "sha256": "2848beb2d25bc5ad6adc6187f9c5c4f4c61131a5900528b8cca69aac3a656e41"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/4channels.vcxproj.filters",
+      "bytes": 685,
+      "sha256": "273660bd774d7eee74d64f6505e80cb2ce4fd71c1c3d597e4db9ea3a2a999526"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/dcraw_emu.pro",
+      "bytes": 144,
+      "sha256": "707dca83cef628978c2c4faf981718eb24ecc213155aa57e0e02b44497d8dd3a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/dcraw_emu.vcxproj",
+      "bytes": 9405,
+      "sha256": "448739f442e8b3f26037ad444b35e4121a2048a2ea0e797f332391f83272c3c9"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/dcraw_emu.vcxproj.filters",
+      "bytes": 685,
+      "sha256": "486c738f660a61f543bbd052c9046667bd93aa2a5e81b0e88a563bf99185496f"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/dcraw_half.pro",
+      "bytes": 143,
+      "sha256": "cbc36c21592914fe9aaff21f0f7f97c562bd11417ceb01c09c2640d39881bfb7"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/dcraw_half.vcxproj",
+      "bytes": 9419,
+      "sha256": "946e6fd92b6571ba83848396e181292d10283001d39aaca390d539031d1c2497"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/dcraw_half.vcxproj.filters",
+      "bytes": 684,
+      "sha256": "d0815f9fac863c8d65f0b302a9ee8efebb72855c83a7fadca7c7bbdd007b750a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/half_mt.pro",
+      "bytes": 200,
+      "sha256": "890ee582d4871fd4214cea8e8fec560ce165c5632f8bd0d8067c9a31283864a3"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/libraw-common-lib.pro",
+      "bytes": 513,
+      "sha256": "2f53bfb4773f0a006814b48abd2b63a14b938db288f71867597734cfb6c8805d"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/libraw-common.pro",
+      "bytes": 129,
+      "sha256": "7056f64a3a24c583e22330851cd42d3513e267a0bbe1614b7df96feac5888b8b"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/libraw.pro",
+      "bytes": 3462,
+      "sha256": "bdc1ecbea4d379c437bf0d0e55352400dfba49b3675fcdaee957d18a834e3944"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/libraw.vcxproj",
+      "bytes": 14287,
+      "sha256": "cb7c9436005d078cd48e112dea5744a96321666b06696be427a8a75fef5fa481"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/libraw.vcxproj.filters",
+      "bytes": 10855,
+      "sha256": "d739a140ed98a6f7e5008cb9788046d929b9b6429d57c202ba444559bf3413be"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/mem_image.pro",
+      "bytes": 151,
+      "sha256": "95a9d5729a50fa9aba2fd5bdae36e8ece3bffdf19a56d5b4cc235453572b157c"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/mem_image.vcxproj",
+      "bytes": 9412,
+      "sha256": "8e1daca029ad29a2b96818b84ba9fe78d65f301d34aa5687a57780cf7f7fb5b6"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/mem_image.vcxproj.filters",
+      "bytes": 692,
+      "sha256": "de65e1ae07cefc81b6d5ea8a7b11fbf698e2e3357832c3937cbfbe42d11725b9"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/multirender_test.pro",
+      "bytes": 151,
+      "sha256": "756810eacff8f31232498e6aab41c6c4b731e3a04753163d6e1938a0455bb2b4"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/multirender_test.vcxproj",
+      "bytes": 9517,
+      "sha256": "8be33c759d2c88a318d03a5eb717db2fe9ce31e1eda4929456af399fa065e68d"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/multirender_test.vcxproj.filters",
+      "bytes": 692,
+      "sha256": "33878b52c5646b23f510b60e17199bd3c26cedc24d14bc44175429ca3e7b718d"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/openbayer_sample.pro",
+      "bytes": 145,
+      "sha256": "b9ae62a1d1fb3ecc1fcbc416c3a5bf7dd87069cb12fe1aeed93f6c16371ea126"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/openbayer_sample.vcxproj",
+      "bytes": 9517,
+      "sha256": "f5f903386246ca5ffb1406f9a1378d3de66910add03e7cb24e3069e959540fdf"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/openbayer_sample.vcxproj.filters",
+      "bytes": 692,
+      "sha256": "a8f3d380b14be7d6ca50319f3d3efdaeacfc75a205733b903b8f8e294acfe0fb"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/postprocessing_benchmark.pro",
+      "bytes": 117,
+      "sha256": "23bb66e404a5a357760bc857085572d9b7af849d272dfb091c3c2c0978ee29c5"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/postprocessing_benchmark.vcxproj",
+      "bytes": 9645,
+      "sha256": "52cfc8b63ea807d8655cedcf9390c5629c6bf1f9032a5e45c2803151779f1dd2"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/postprocessing_benchmark.vcxproj.filters",
+      "bytes": 700,
+      "sha256": "e79cd5aba35d3f93c48fa75dce0cb526fd01ab044bdbaed30b6a09bc662c68c5"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/raw-identify.pro",
+      "bytes": 147,
+      "sha256": "9e071c179864b2e46b2a6b2ad25424a50e6576adb65815f0ac2370c67147d04d"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/raw-identify.vcxproj",
+      "bytes": 9453,
+      "sha256": "6494c5c7a44292e63998583a653a5b84c98a8cdddebc2b7d6c4fdf94c5b14110"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/raw-identify.vcxproj.filters",
+      "bytes": 688,
+      "sha256": "752744706ef72c319bfc5ed15e10b3a2ae69d905aef81e98234a261be2af5239"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/rawtextdump.pro",
+      "bytes": 140,
+      "sha256": "530a09c8466dacc78d39056606b33afe648df61d19d4865ad5cf516e7eb3ffe8"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/rawtextdump.vcxproj",
+      "bytes": 9437,
+      "sha256": "bf01e998836ca801c69d3d2b4ff1015dac2da509c795bbe4933c5b6c5568273c"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/rawtextdump.vcxproj.filters",
+      "bytes": 687,
+      "sha256": "e7a13e71bc26cfbc1111c2e5d06e1c90563687496ab96256725d340c83eaf72c"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/simple_dcraw.pro",
+      "bytes": 147,
+      "sha256": "80802a821fe527a9a371c540dce6337db94907c4c3ba205c63576bb936dc862a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/simple_dcraw.vcxproj",
+      "bytes": 9453,
+      "sha256": "89e4d656b156e3b69f88e48f3c50b817a8ada8f6423a866db02bfd58035df384"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/simple_dcraw.vcxproj.filters",
+      "bytes": 688,
+      "sha256": "81172d8c65b9b9e5d829cf7de6eea6700fd051e84c3ce58b99ad8d0401d7f3a0"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/unprocessed_raw.pro",
+      "bytes": 150,
+      "sha256": "31046baa5aa63dcb94915d2fd7f18a60e96ff75257d9f0513b73ceeb5b4037aa"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/unprocessed_raw.vcxproj",
+      "bytes": 9501,
+      "sha256": "c07e6c5b40852101615e06ee44c2efa5495c889141a725f7bf400939ad1e3275"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/buildfiles/unprocessed_raw.vcxproj.filters",
+      "bytes": 691,
+      "sha256": "fc88a9813ac5e2813a65e1b19cb3280149dcdea333c9416ceb9841910381b32b"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/clist2c.pl",
+      "bytes": 148,
+      "sha256": "074aec13c8e44da9edc8c6dd81f0b824d4740e3830c4bbdb0b1eeea65860438d"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/clist2html.pl",
+      "bytes": 1141,
+      "sha256": "6b69158298a25fbe020e36f49429e76b84756c385714630e0fcbb8c0f2142a13"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/configure.ac",
+      "bytes": 3474,
+      "sha256": "2f3862154470c3e50cf83815f80f7f130747fb8565ead6d6601050a684d6f3e0"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/doc/API-C.html",
+      "bytes": 11097,
+      "sha256": "ed726b7d1c9f565fc8cb26447865d89912eddb5e7743f33ec676f21ba1a9344f"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/doc/API-CXX.html",
+      "bytes": 52727,
+      "sha256": "28037427592371baae3cb48009d2bcf933dc18776923e7d1b5684982f8640c0f"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/doc/API-datastruct.html",
+      "bytes": 88028,
+      "sha256": "d34b4ac94d77608528ad4aa4fd1f0a0e4ec8b52745e470ed8812b3dfc38c9547"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/doc/API-notes.html",
+      "bytes": 18010,
+      "sha256": "099c072a70362995d2bcde7173c6f1d4ab21af21cf131722f48d887f1c96626d"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/doc/API-overview.html",
+      "bytes": 2795,
+      "sha256": "6e39b97435a5bffaca3b3ff38b17303e7fb69a788c84dc1af2decb3fb58e4d8e"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/doc/Install-LibRaw.html",
+      "bytes": 13208,
+      "sha256": "e7fb2c6d23c46e80ca0f61abd6fd195e7cf3f69c31206d6d06853205f5210251"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/doc/Samples-LibRaw.html",
+      "bytes": 10817,
+      "sha256": "51713a4bed72bdae5d42b47503510541e58c9d7fb4bd4083f95aa755479d1c27"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/doc/Why-LibRaw.html",
+      "bytes": 7289,
+      "sha256": "6168ce83b3bbfc6d55458a0d4206b90f683b6a8c940848e3d6a54f549d6cd698"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/doc/index.html",
+      "bytes": 2121,
+      "sha256": "31f78b9009570de21c6ab242fbc10b9d7084913d5dc4a9536afed178b3da5a7a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/export-dist.sh",
+      "bytes": 398,
+      "sha256": "f9f1314865f099dfbff50e506ba24f4d3a1d128b0a8d774f7a1aa73a6292298e"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/internal/dcraw_defs.h",
+      "bytes": 2108,
+      "sha256": "d9d088454ae984e5b5b6fa2f6df0cbb708e126d5f1abb7265da84a6ff1c40d70"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/internal/dcraw_fileio_defs.h",
+      "bytes": 683,
+      "sha256": "cfde9739ba2299cb97bef246262bc5bf34ce33692aa9c83eef266f67bd855b7f"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/internal/defines.h",
+      "bytes": 6016,
+      "sha256": "30c573bfab1e70f71427ee4b43e45482d70377aed8c3392457a341ed5512e1e6"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/internal/dmp_include.h",
+      "bytes": 717,
+      "sha256": "911fd174796b6d871b743becacccb57b703222f4664c569f4556fe516ae5fc49"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/internal/libraw_cameraids.h",
+      "bytes": 17293,
+      "sha256": "62f9711ebf1cdc5e9e3af82e73c1097d4fc076c643c04294bb8990cb0bbd6f0e"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/internal/libraw_checked_buffer.h",
+      "bytes": 917,
+      "sha256": "d55f9749f10fefac15102cf7d29477bd61bcbac8df4f241ac6240d2886810d06"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/internal/libraw_cxx_defs.h",
+      "bytes": 4963,
+      "sha256": "aceeddd5662650f539c7187b1ea65bfc7fbfc989bff70c0bb17dc8e57c6f4ad4"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/internal/libraw_internal_funcs.h",
+      "bytes": 17826,
+      "sha256": "ddb24c13b4922a8d7461af47329a4a34f25d0a1c218c5e1399a581c2aa00ced8"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/internal/losslessjpeg.h",
+      "bytes": 7473,
+      "sha256": "208c3d8a55dfe2417027991f63249c3effc23f6505c4855f2791808858909c08"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/internal/var_defines.h",
+      "bytes": 10356,
+      "sha256": "5d83005b2ba3ff559a1f39130c6ffa740721a627e90e8338bf43f2e542d5842c"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/internal/x3f_tools.h",
+      "bytes": 14883,
+      "sha256": "463650aee31a5f286ea00cfb29ccfda65426fe2085cbefb2082bf7919220d758"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/lib/Makefile",
+      "bytes": 42,
+      "sha256": "e7f707874a22ab91701d47603c1ac0e67e0c8fad5fb34a7b4c311c410f8ad343"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/libraw.pc.in",
+      "bytes": 337,
+      "sha256": "6ee2a89b7ca189e9fbf7b914d5e889c5918039e85e63367ab47e5c8f399e3033"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/libraw/libraw.h",
+      "bytes": 19572,
+      "sha256": "51c8fc75569945aa62165769fd5eecad6ea2e8ae0a9b49f0077da16ee4756546"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/libraw/libraw_alloc.h",
+      "bytes": 3209,
+      "sha256": "2954c1f99b0c7c0e1896bcd2303a5349dc7ca74d25212eecc5c4374310ac9eb6"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/libraw/libraw_const.h",
+      "bytes": 26775,
+      "sha256": "f94a5bd2911e09f4edf4d8642608e31a6674c5e8c7eb7459e7cf7291fb9622ab"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/libraw/libraw_datastream.h",
+      "bytes": 10943,
+      "sha256": "98f2667d48f0df67221c4baeb5bb3c3b3b148269a35a8677fdbcbd071510a316"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/libraw/libraw_internal.h",
+      "bytes": 11161,
+      "sha256": "2d65cb6e722a93b8f23670f0e5b9bc3badb126e333b09e346603d6017816d55b"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/libraw/libraw_types.h",
+      "bytes": 34316,
+      "sha256": "cee6a1ee00ea8528be1121096753e046569829fa6c277e8e0af116c471c05597"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/libraw/libraw_version.h",
+      "bytes": 2513,
+      "sha256": "7a0977a5bf2d5f926086023a150e7b981025f875ec963d68dac9b86e877e319b"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/libraw_r.pc.in",
+      "bytes": 335,
+      "sha256": "3eb5a7100526c3b4dc548d1774bcdf6962b2f5b51d56a77308368988ae22f021"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/m4/ax_openmp.m4",
+      "bytes": 5100,
+      "sha256": "a98198173c1e465fcfd41081594e5d718aeb473bdb69183976e30016f12b9ba1"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/mkdist.sh",
+      "bytes": 309,
+      "sha256": "d14e4688382d5d585bd25587b45984b36494e1df9eb3ebdb87effccda02eba84"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/object/.keep_me",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/rsxml2c.sh",
+      "bytes": 156,
+      "sha256": "087b9295b27d26210c804cc4be4d7a96ea9155c8244c8be3034f792ee1bb718a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/4channels.cpp",
+      "bytes": 4842,
+      "sha256": "d43c3184dd52e673991a8e46fa4690bc9e0271217ee822ab05ebcc43a3707f6a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/Makefile",
+      "bytes": 33,
+      "sha256": "c87092e038d6924d5b911ba066073db0da81d98e3dafbb09d11a1520c16b7b16"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/dcraw_emu.cpp",
+      "bytes": 19898,
+      "sha256": "bacd77b01d56a689de98408ccd887a9f19b65cc56c61f87b67a9ccb9513d5a99"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/dcraw_half.c",
+      "bytes": 2365,
+      "sha256": "abaafa5ecee11fabe0c2717abbb0d89154ae38ff12009ef25f472f14b0cc22cf"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/half_mt.c",
+      "bytes": 4557,
+      "sha256": "649c47c7082d78027a835e3963ca9a4afc022d9107ac017891a7b22b3aec90ff"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/half_mt_win32.c",
+      "bytes": 5563,
+      "sha256": "561f36c8c949726f87070cd1f63aaced3c45c715f3f0e86a2dc6300369880680"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/mem_image_sample.cpp",
+      "bytes": 8122,
+      "sha256": "f010d476171cee7059f3a79928d9347b6afb76c0520088bd763714e6aa4a9cdc"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/multirender_test.cpp",
+      "bytes": 3288,
+      "sha256": "e4014c9e38881318764addb10b015f05086738ddabc2407a4694d479f253b27f"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/openbayer_sample.cpp",
+      "bytes": 1804,
+      "sha256": "86ed1172e1d1f8fd633433ada3a957626665ab5c3a53bbd0c78e99f08a52c5f3"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/postprocessing_benchmark.cpp",
+      "bytes": 6491,
+      "sha256": "9bb18e8de94c26d01557cc9558d39fc2aa106e19e64f89023ce76c70175f6dc4"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/raw-identify.cpp",
+      "bytes": 26901,
+      "sha256": "80280049ea8772f856a488d95daf800bba7e8b30f88615ea407acc8ac9f109b9"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/rawtextdump.cpp",
+      "bytes": 4193,
+      "sha256": "60d5ef780735cc397d2a680d3607d9f077d4baa973b9e2a1a0fcdffd4881ef4c"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/simple_dcraw.cpp",
+      "bytes": 7531,
+      "sha256": "07711ab6d10afd4122d938f11bff6fdcf3cba34fdec494d11d28d4e4b85eb2c2"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/samples/unprocessed_raw.cpp",
+      "bytes": 9277,
+      "sha256": "7691ce6767ccff2b1de0e123ff2bac8bd53d790c9ebd2cac484be61800867c0c"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/shlib-version.sh",
+      "bytes": 301,
+      "sha256": "881ce9bb8f586cc6918c5cebeb7d9477c843c24613b8f163adc1b05e46aabf2a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/Makefile",
+      "bytes": 29,
+      "sha256": "b6eb00d29221106d8f7260487fc3ecb873a35e6fadc2735ad8bfb12d1a1d0786"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/canon_600.cpp",
+      "bytes": 6080,
+      "sha256": "1a746410770ee5b328688e2cd808df3c5bacbd28dbdf783f0de91a3d521ee63b"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/crx.cpp",
+      "bytes": 88719,
+      "sha256": "e26a591d8d3c6de7599321a746f795a7b4dd2b7b9c20476eea7ee80331104e4a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/decoders_dcraw.cpp",
+      "bytes": 49180,
+      "sha256": "eac0858bd3a82aceffe094e64eb78a563f8194d6e727025c2fc90214daffc693"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/decoders_libraw.cpp",
+      "bytes": 37736,
+      "sha256": "89839d395807917a89e147f32445013afec02fcf8a0edec7fa9b02210b54488b"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/decoders_libraw_dcrdefs.cpp",
+      "bytes": 11130,
+      "sha256": "48c2600aba71d87f3b2ccbea272be3774b5a321fb59ce16a662427a41c269b83"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/dng.cpp",
+      "bytes": 7854,
+      "sha256": "8caaee710d011250d263352acc77e4d3429406c4b4bf8627f4d63f585de2cc96"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/fp_dng.cpp",
+      "bytes": 23557,
+      "sha256": "ec2992c33429db2de2269215d1265af33f4865dda0d8cd7ca322224d7eed9757"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/fuji_compressed.cpp",
+      "bytes": 39762,
+      "sha256": "bd34a16f4fe7fd523863d41a50d06cb6c9af8b9b23c1aeccd5db3f3c93c260e5"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/generic.cpp",
+      "bytes": 2978,
+      "sha256": "348f97d4ad3d5ee3916e84f0aae0e254714adb7fc66d349cea5c7a19d2ff6d66"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/kodak_decoders.cpp",
+      "bytes": 15616,
+      "sha256": "947d51dcf9bba44a6f42789e9786e0db3209913fb1252fb0649ca0ee61a79542"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/load_mfbacks.cpp",
+      "bytes": 27403,
+      "sha256": "ed251bda102ad584592ba520fc5ad45e3ad77192e4bd54d738135d0914a6c764"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/nikonhe.cpp",
+      "bytes": 139667,
+      "sha256": "146ef6730983a505d24a994c73a32958d55332ec51db634b7c4b2c1af5cc5df3"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/olympus14.cpp",
+      "bytes": 8589,
+      "sha256": "f65f85e8f716cc0e7e52314ab65c9fe993f21e7a6b88c7af235e4cd172ed212b"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/pana8.cpp",
+      "bytes": 18132,
+      "sha256": "768bab3bfbd47a7238d9f3ce3454f03cdd7f7ebfd264c7037eda591abe543390"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/smal.cpp",
+      "bytes": 5134,
+      "sha256": "2d4fbba4a11ffe4569fd2fff5611369b7ee22e666ddd04932149539219d98d9b"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/sony_arw6.cpp",
+      "bytes": 68956,
+      "sha256": "c59d0d1fef4b338b1034d5228f886f02280d8bf9e9aed65fd35d3ed291113823"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/sonycc.cpp",
+      "bytes": 10940,
+      "sha256": "5e3c23ac1f04556684dd495dd19257300fdf7a348ff3ccfa6c0f07643547c41b"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/unpack.cpp",
+      "bytes": 20542,
+      "sha256": "d0315f2e920eee2b1c652b381668eac3bfe2f974fbd2f5c9569e32f45caf6554"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decoders/unpack_thumb.cpp",
+      "bytes": 14725,
+      "sha256": "e0e0682ec21997e07c5ac94f0e24fd78425ffea35afcb0290d5de0012e478e13"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/decompressors/losslessjpeg.cpp",
+      "bytes": 9352,
+      "sha256": "d2ae0946302068f096972baa2a940ae1613018501eac47e81737016bf5ffb185"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/demosaic/aahd_demosaic.cpp",
+      "bytes": 23698,
+      "sha256": "234ec195d9aea3353792397a9d4563997b552926100069021260bfa473f10f05"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/demosaic/ahd_demosaic.cpp",
+      "bytes": 10602,
+      "sha256": "2bd7e4ea5623407d266954f4a405a67f8fb2d6625e2d809d84c2aa1c7075108a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/demosaic/dcb_demosaic.cpp",
+      "bytes": 32619,
+      "sha256": "e02a3626c5794c40221bde1be4bd55ee0cad15c860013319969f0cbec682410f"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/demosaic/dht_demosaic.cpp",
+      "bytes": 34161,
+      "sha256": "6203338d108919868ee8ad4d514712dbc3e438d150b608a7d6859a32a2a7f45c"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/demosaic/misc_demosaic.cpp",
+      "bytes": 14910,
+      "sha256": "64ceddd73a8b8440e6144aab671f468fe9d7fb59fa27d09052908ef25b08a6c4"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/demosaic/xtrans_demosaic.cpp",
+      "bytes": 18257,
+      "sha256": "43d0d89b9744106618f3341b044e5cf055c47525709bd0385440678ec81652bc"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/integration/dngsdk_glue.cpp",
+      "bytes": 16302,
+      "sha256": "694d2d9d42af4cdf786c281f3f1a103888a35e01ef740a12e2fc18e8155cf386"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/integration/rawspeed_glue.cpp",
+      "bytes": 8514,
+      "sha256": "693685610ead9f5223c642598b55ba085c7f6a3018798e60dc8b90f8b0d42926"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/libraw_c_api.cpp",
+      "bytes": 11863,
+      "sha256": "81e158db593a1397076bf5f356d66f3eaaa8d286b4ca63051b2b8d5b9fc8f251"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/libraw_datastream.cpp",
+      "bytes": 25556,
+      "sha256": "c56ba9c8b0ca746953530b53717a1659bf8e1429d9d0fe28e9882899f39d4951"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/adobepano.cpp",
+      "bytes": 4626,
+      "sha256": "33372575aa8254b3a917f3ac97e3fd70947b13575899a4bb23de082b5e981b22"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/canon.cpp",
+      "bytes": 48519,
+      "sha256": "cda7c81199a0ec3f2eabc55487ce9f39142f6640da739cef8a97fe1a89e1d432"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/ciff.cpp",
+      "bytes": 12569,
+      "sha256": "5251d0944c152d24b77b4f4f094c7f1581b5f1175548a49343c88f6bbff418e6"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/cr3_parser.cpp",
+      "bytes": 27450,
+      "sha256": "1f2db97753b94191c30d4f77feb70e15d5dec869ea1f6e843131562d02d8126a"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/epson.cpp",
+      "bytes": 2655,
+      "sha256": "ea24543a24ab6232465f823192e0adf82cf5d10025c717cffd67f8fec149e7ea"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/exif_gps.cpp",
+      "bytes": 12698,
+      "sha256": "220f40cd58c1014c1705c2557d64901aecc04a6d93ac3bba300a192e4099da46"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/fuji.cpp",
+      "bytes": 50170,
+      "sha256": "22c4121fe77950204957f308ec3ff48eb51ce70524be29ae32e8f12920b89098"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/hasselblad_model.cpp",
+      "bytes": 21913,
+      "sha256": "84725e6b0836e126724366ad778d07e1e6b5712a56f324c0e4df0e63a74bac8c"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/identify.cpp",
+      "bytes": 112946,
+      "sha256": "c67dcd2cc2beff0eea6464ad59a321e567461a1aa422f17636c71d546c638a5d"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/identify_tools.cpp",
+      "bytes": 3861,
+      "sha256": "6eaf83dc4591b684827aaa44e48f37cd596e1dbe3486d97fb53ea100e85856e0"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/kodak.cpp",
+      "bytes": 11493,
+      "sha256": "81ea6fe904f7809f179ca36c4eb11f20943ffcaafc380af7bf189d8223ecfeb9"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/leica.cpp",
+      "bytes": 11663,
+      "sha256": "c8ffd594173bd3da3cc7b1b0b3ab033b1ecb86c638c76b6ee386e121b3c8b431"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/makernotes.cpp",
+      "bytes": 22793,
+      "sha256": "10f70dcd104115ef71366f8441a8787fe841ee71d5aff8c396c7961f358fb570"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/mediumformat.cpp",
+      "bytes": 15264,
+      "sha256": "dcf93f1be7d588f6cb885182fe2b5e9643c49c5a9817c2b428488d9a884189cf"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/minolta.cpp",
+      "bytes": 4014,
+      "sha256": "30a59a861b004e1d4d03105e77ded63b3e189759c16911020d6d7b62c45cdbbc"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/misc_parsers.cpp",
+      "bytes": 16422,
+      "sha256": "79d753334b5545769152fe7731f57e8edd23ccef59803844fd1ff8830a8536bd"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/nikon.cpp",
+      "bytes": 38441,
+      "sha256": "159bd6694e96d8bb4164710e558cb5786e4da8550485901b78e7b510fe811d62"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/normalize_model.cpp",
+      "bytes": 52966,
+      "sha256": "8c21c590cbda8468959076879bab94b6157681e7c9121752bf0989897d4ba67f"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/olympus.cpp",
+      "bytes": 20007,
+      "sha256": "fbc28444793365ecc0d521232c2e729a8ff758699b440b0f4a3102e15fb16bff"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/p1.cpp",
+      "bytes": 12231,
+      "sha256": "32685516f3bd28e3281e31841f1aa9a8a012982c96cfd74f2d397962e7c8c79d"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/pentax.cpp",
+      "bytes": 19646,
+      "sha256": "da58c9fb855af04aa53bc86602e268973fda8cee608e6d27901eda71b2e5e627"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/samsung.cpp",
+      "bytes": 5046,
+      "sha256": "46c3d5ffb64a25b02ae9983d927f6aa2270bf951f35001429e7b6b24fa378292"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/sony.cpp",
+      "bytes": 85881,
+      "sha256": "32297307a04297eeb2e9af50be451a55e38c5c95648b12293a9cc364800c3064"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/metadata/tiff.cpp",
+      "bytes": 84797,
+      "sha256": "7f81c07a6f00aed8dfe6d7d2db6b93182fb66ff6ad708addee5f7aec19d0b2c4"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/postprocessing/aspect_ratio.cpp",
+      "bytes": 3472,
+      "sha256": "6cd8c550e0a1f66f6573a68a6404597727251932a8be3080d803e9d081b2a657"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/postprocessing/dcraw_process.cpp",
+      "bytes": 7110,
+      "sha256": "d7bc459dfcc722c62a2bb6a40509b01f22cc13838173dfbd9579ec45c8daa7c3"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/postprocessing/mem_image.cpp",
+      "bytes": 7963,
+      "sha256": "ac8f319c2f38359df5ea5a1be07f4edf71a5ccb29a146445d9f5830aec42a5d5"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/postprocessing/postprocessing_aux.cpp",
+      "bytes": 13906,
+      "sha256": "949404613d558549436b96a45f9832c75dfdc48467b33afe2ca537a159687782"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/postprocessing/postprocessing_ph.cpp",
+      "bytes": 1035,
+      "sha256": "190eab3551b45c50ac89ede3197a44719b086ea1d0a911bd237f738bf9c4f1a5"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/postprocessing/postprocessing_utils.cpp",
+      "bytes": 5735,
+      "sha256": "f4ee00e239ceb008e03b2a79264ea0b9f1bb0083812328c9675ebc8a0905b0d0"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/postprocessing/postprocessing_utils_dcrdefs.cpp",
+      "bytes": 11257,
+      "sha256": "44b520afaaf8393a45bdc52657ed0e6641474a49174db9d73b3b3f7642f4f723"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/preprocessing/ext_preprocess.cpp",
+      "bytes": 3304,
+      "sha256": "1f7cb1117dd987180700dfdf81fd94f0d27f7b54c68b2662367c779c2a374aca"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/preprocessing/preprocessing_ph.cpp",
+      "bytes": 827,
+      "sha256": "09bd4816eac5c7047a06ca940e1c9c1db0f9e4724931b2c90c35d8a9472eca4f"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/preprocessing/raw2image.cpp",
+      "bytes": 17926,
+      "sha256": "3ea91f70ab090fbc00021ef1f0c612676ce03bcbfc28a30e08c270c486c12df3"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/preprocessing/subtract_black.cpp",
+      "bytes": 2424,
+      "sha256": "8847f4e8c1a89ca0247195d4391d3264795c58af371f6fed37cb0c4ae70cca0c"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/tables/cameralist.cpp",
+      "bytes": 31015,
+      "sha256": "934ad6e16b57d6caff42b75c1a9c65ca863ca3cf63eb3bb3f9cfdfe1838057a7"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/tables/colorconst.cpp",
+      "bytes": 2199,
+      "sha256": "d47dca1fd2a83e8e03adb35bf82aaf1813fc03a8ed781e6c4abad479821a9a0d"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/tables/colordata.cpp",
+      "bytes": 103580,
+      "sha256": "fc75c1c939ec97b2fa1efd62bd1369ad5788d128c2ccc560caaa00e6da95b0e7"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/tables/wblists.cpp",
+      "bytes": 7970,
+      "sha256": "963430d3d9c4024831fd2f79e5e5ae843c925f106ec7bc7d21ff465b51d4fb17"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/utils/curves.cpp",
+      "bytes": 4187,
+      "sha256": "a4e32c4365af37388ead5036bc78fd1918ab4307532df39d399f09fc6deb4ac0"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/utils/decoder_info.cpp",
+      "bytes": 13772,
+      "sha256": "7b7c44fa9ecc188bf2d04eb2b744b71ea2109c5e888750b8a335727177648475"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/utils/init_close_utils.cpp",
+      "bytes": 11045,
+      "sha256": "1c5255a3e2ed36f09c6a229ac37a7d7a93c03a0859aa2cf7797ba641a2eedbe2"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/utils/open.cpp",
+      "bytes": 52982,
+      "sha256": "32525832ead443b28597c5ec239d4cefc3421fa70e14bea54719c1305b638dd6"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/utils/phaseone_processing.cpp",
+      "bytes": 3487,
+      "sha256": "cb33947bdff40f8986b82d0c0a229b794690b41523aa64f73852670d624e61b4"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/utils/read_utils.cpp",
+      "bytes": 4925,
+      "sha256": "2aad9064534daa700985724d1f6d23db4dbf5ec522ea36fc6c418cebadae59b8"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/utils/thumb_utils.cpp",
+      "bytes": 9651,
+      "sha256": "c5cb974788ba2bf1b7486d003d25b14f6b7f6da65e4852857a99edc4e167ab01"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/utils/utils_dcraw.cpp",
+      "bytes": 11800,
+      "sha256": "206622779c9f8568393f35915dd0a5eaca356c3f5b23d701d1f84760b9dc1a1f"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/utils/utils_libraw.cpp",
+      "bytes": 19574,
+      "sha256": "fd2de5428173b156331c7f83ce35f74675454e775dcbf97c77f9116759de3ca2"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/write/apply_profile.cpp",
+      "bytes": 2253,
+      "sha256": "6d87c0a6438e71aff9ef5f28de0a00423c391ac5e4749aa8d84f9fcc290aed69"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/write/file_write.cpp",
+      "bytes": 11809,
+      "sha256": "b48b1d02ffc2c01c65671a58dc139d45c3ba4153b16bee8958f0e5880bb57762"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/write/tiff_writer.cpp",
+      "bytes": 1879,
+      "sha256": "67f3ecffc64c591402ddbfb75a6edde01e7c2a2e4d2ac9273070f80e6804ffaf"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/write/write_ph.cpp",
+      "bytes": 1069,
+      "sha256": "9ed100be49adc8398afdc47827125c150a0a9d614fdfd49dac1c4bb7d8bda3c9"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/x3f/x3f_parse_process.cpp",
+      "bytes": 26254,
+      "sha256": "452fc088589001d5035409cde4b72ef91bb28f221caddcfe089a51fc4b8d2e0e"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/src/x3f/x3f_utils_patched.cpp",
+      "bytes": 62314,
+      "sha256": "ccb45d5e3ecbad0c4fb625b235a873f2f7a25d77364dbaf69e510329c3f0c1f6"
+    },
+    {
+      "path": "LibRaw-a9a14b1970d188c25dade81f8326ff00a6e33649/version.sh",
+      "bytes": 468,
+      "sha256": "0ed807489c4f583a4143a957448b28ae641dd5ddd200b00d710bbb7394fbbe17"
+    }
+  ]
+}
